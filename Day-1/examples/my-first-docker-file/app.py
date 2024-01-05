@@ -1,0 +1,1 @@
+print('Hello, this is my sentence executing from python using docker')

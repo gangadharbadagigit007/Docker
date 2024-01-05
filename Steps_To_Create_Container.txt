@@ -1,0 +1,12 @@
+1)First create Dockerfile
+2)Create a python file paralell to Dockerfile
+3)Execute below commands
+   ###### Build the Dockerfile and will create an image from current directory####
+   #docker build -t <any name for image> .
+   docker build -t gangadharbadagi/my-first-docker-image:latest .
+   ######## Run the created image ###########
+   #docker run -it <imagename> (imagename which is created from previous step)
+   docker run -it gangadharbadagi/my-first-docker-image:latest
+   ###### Push created image to registry so that it will be available for public ########
+   #docker push <imagename> (imagename which is created from previous step)
+   docker push gangadharbadagi/my-first-docker-image:latest

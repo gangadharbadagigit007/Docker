@@ -1,0 +1,16 @@
+first install python3
+python -m pip install Django
+#checking django installation
+django-admin --version
+
+#Creating Django project
+django-admin startproject <project-name>
+#Run Django app
+python manage.py runserver
+#Change port 
+python manage.py runserver 8080
+#Change IP address
+python manage.py runserver 0.0.0.0:8000
+
+# Creating Web application
+python manage.py startapp <App-Name>

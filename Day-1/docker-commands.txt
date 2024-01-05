@@ -1,0 +1,7 @@
+docker build -t gangadhar/my-first-docker-image:latest
+docker run -it gangadhar/my-first-docker-image:latest
+
+#gangadharbadagi/9035649587@Gg
+docker login 
+
+docker push gangadhar/my-first-docker-image:latest
